@@ -1,3 +1,9 @@
 # nascore-website
 
-Cloudflare offers comprehensive deployment support services.
+- cloudflare pages
+- vuepress
+
+```sh
+pnpm docs:build
+docs/.vuepress/dist
+```
