@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: https://search.nixos.org/images/nix-logo-pride.png
+heroImage: /logo.webp
 actions:
   - text: Learn More
     link: /docs

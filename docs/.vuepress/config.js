@@ -9,7 +9,7 @@ export default defineUserConfig({
   description: 'Deploy with agility, expand with precision.',
 
   theme: defaultTheme({
-    logo: 'https://search.nixos.org/images/nix-logo-pride.png',
+    logo: '/logo.webp',
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'Docs', link: '/docs/' },
