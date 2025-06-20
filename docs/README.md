@@ -4,7 +4,7 @@ title: Home
 heroImage: https://search.nixos.org/images/nix-logo-pride.png
 actions:
   - text: Learn More
-    link: /get-started.html
+    link: /docs
     type: primary
 
   - text: DownLoad
