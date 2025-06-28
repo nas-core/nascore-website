@@ -3,6 +3,10 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
+  lang: 'en-US',
+  title: 'NasCore',
+  description: 'Deploy with agility, expand with precision.',
+
   locales: {
     '/': {
       lang: 'en-US',
@@ -27,9 +31,14 @@ export default defineUserConfig({
           { text: 'Community', link: '/community' },
           { text: 'GitHub', link: 'http://github.com/nas-core' },
         ],
-        selectLanguageText: 'Languages',
-        selectLanguageName: 'English',
-        selectLanguageAriaLabel: 'Select language',
+        sidebar: {
+          '/docs/': [
+            {
+              text: 'Guide',
+              children: ['/docs/README.md', '/docs/webdav.md'],
+            },
+          ],
+        },
       },
       '/zh/': {
         navbar: [
@@ -39,9 +48,14 @@ export default defineUserConfig({
           { text: '社区', link: '/zh/community' },
           { text: 'GitHub', link: 'http://github.com/nas-core' },
         ],
-        selectLanguageText: '选择语言',
-        selectLanguageName: '简体中文',
-        selectLanguageAriaLabel: '选择语言',
+        sidebar: {
+          '/zh/docs/': [
+            {
+              text: '指南',
+              children: ['/zh/docs/README.md', '/zh/docs/webdav.md'],
+            },
+          ],
+        },
       },
     },
   }),
