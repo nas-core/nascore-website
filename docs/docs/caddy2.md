@@ -1,4 +1,4 @@
-# Caddy2
+# Caddy2 WebSite
 
 Caddy2 is a high-performance web server that can easily implement reverse proxy, load balancing, static file service and other functions.
 

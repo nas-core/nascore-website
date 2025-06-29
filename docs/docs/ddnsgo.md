@@ -1,4 +1,4 @@
-# ddns-go
+# ddns-go Dynamic DNS
 
 ddns-go is responsible for automatically obtaining your public IPv4 or IPv6 address and resolving it to the corresponding domain name service.
 

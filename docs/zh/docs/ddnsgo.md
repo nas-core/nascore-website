@@ -1,4 +1,4 @@
-# ddns-go
+# ddns-go 动态域名解析
 
 ddns-go 负责自动获得你的公网 IPv4 或 IPv6 地址，并解析到对应的域名服务。
 

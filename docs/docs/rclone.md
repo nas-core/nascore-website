@@ -1,4 +1,4 @@
-# rclone
+# rclone Cloud Storage
 
 nascore currently supports automatic download and installation of rclone and automatic mounting directory
 

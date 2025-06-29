@@ -1,4 +1,4 @@
-# lego automatic certificate management
+# lego automatic TLS/Https management
 
 lego is a powerful automatic certificate management tool that supports multiple certificate authorities (CA) and multiple protocols (such as ACME, DNS-01, HTTP-01, etc.). nascore supports automatic installation and follow-up startup of lego, as well as automatic reverse proxy.
 
