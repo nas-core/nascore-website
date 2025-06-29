@@ -29,7 +29,7 @@ export default defineUserConfig({
           { text: 'Docs', link: '/docs/' },
           { text: 'Download', link: '/download' },
           { text: 'Community', link: '/community' },
-          { text: 'GitHub', link: 'http://github.com/nas-core' },
+          { text: 'GitHub', link: 'http://github.com/nas-core/nascore' },
         ],
         sidebar: {
           '/docs/': [
@@ -56,7 +56,7 @@ export default defineUserConfig({
           { text: '文档', link: '/zh/docs/' },
           { text: '下载', link: '/zh/download' },
           { text: '社区', link: '/zh/community' },
-          { text: 'GitHub', link: 'http://github.com/nas-core' },
+          { text: 'GitHub', link: 'http://github.com/nas-core/nascore' },
         ],
         sidebar: {
           '/zh/docs/': [
