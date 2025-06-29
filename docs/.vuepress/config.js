@@ -35,23 +35,6 @@ export default defineUserConfig({
           '/docs/': [
             {
               text: 'Guide',
-              children: ['/docs/README.md', '/docs/webdav.md'],
-            },
-          ],
-        },
-      },
-      '/zh/': {
-        navbar: [
-          { text: '首页', link: '/zh/' },
-          { text: '文档', link: '/zh/docs/' },
-          { text: '下载', link: '/zh/download' },
-          { text: '社区', link: '/zh/community' },
-          { text: 'GitHub', link: 'http://github.com/nas-core' },
-        ],
-        sidebar: {
-          '/docs/': [
-            {
-              text: 'Guide',
               children: [
                 '/docs/README.md',
                 '/docs/nascore_toml.md',
@@ -65,6 +48,17 @@ export default defineUserConfig({
               ],
             },
           ],
+        },
+      },
+      '/zh/': {
+        navbar: [
+          { text: '首页', link: '/zh/' },
+          { text: '文档', link: '/zh/docs/' },
+          { text: '下载', link: '/zh/download' },
+          { text: '社区', link: '/zh/community' },
+          { text: 'GitHub', link: 'http://github.com/nas-core' },
+        ],
+        sidebar: {
           '/zh/docs/': [
             {
               text: '指南',
