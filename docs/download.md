@@ -2,6 +2,8 @@
 title: Down Load
 ---
 
-# down load
+# Download address
 
-Waiting for processing
+The download address is not yet public, please contact the email address to obtain it
+
+[get-nascore@nascore.eu.org](mailto:get-nascore@nascore.eu.org)

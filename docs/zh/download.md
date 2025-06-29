@@ -2,6 +2,8 @@
 title: Down Load
 ---
 
-# 下载地址
+# Download address
 
-暂未公开下载地址
+The download address is not yet public, please contact the email address to obtain it
+
+[get-nascore@nascore.eu.org](mailto:get-nascore@nascore.eu.org)
