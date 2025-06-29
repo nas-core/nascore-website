@@ -52,7 +52,7 @@ export default defineUserConfig({
           '/zh/docs/': [
             {
               text: '指南',
-              children: ['/zh/docs/README.md', '/zh/docs/webdav.md'],
+              children: ['/zh/docs/README.md', '/zh/docs/nascore_toml.md', '/zh/docs/webdav.md', '/zh/docs/cdn_and_static.md'],
             },
           ],
         },
