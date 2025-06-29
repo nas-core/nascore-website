@@ -4,7 +4,7 @@ title: Home
 heroImage: /logo.webp
 actions:
   - text: Learn More
-    link: /docs
+    link: /docs/
     type: primary
 
   - text: Download

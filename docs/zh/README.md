@@ -4,7 +4,7 @@ title: 首页
 heroImage: /logo.webp
 actions:
   - text: 了解更多
-    link: /zh/docs
+    link: /zh/docs/
     type: primary
 
   - text: 下载
