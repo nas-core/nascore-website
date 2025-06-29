@@ -10,7 +10,7 @@ Currently, nascore is open-sourcing all core codes and all front-end UI codes. W
 
 > There is a schedule that may be slightly delayed in updates
 
-## Features
+### Features
 
 - [x] Can run on low-performance hardware and can be expanded on high-performance hardware.
 
