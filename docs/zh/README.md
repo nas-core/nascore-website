@@ -1,33 +1,31 @@
 ---
 home: true
-title: Home
+title: 首页
 heroImage: /logo.webp
 actions:
-  - text: Learn More
-    link: /docs
+  - text: 了解更多
+    link: /zh/docs
     type: primary
 
-  - text: Download
-    link: /download.html
+  - text: 下载
+    link: /zh/download.html
     type: secondary
 
 features:
-  - title: Lightweight & Efficient
-    details: Optimized for low-resource environments, ensuring efficient performance even on modest hardware.
-  - title: Modular & Extensible
-    details: Start with essential features and seamlessly add functionality with modular extensions.
-  - title: Versatile Compatibility
-    details: Supports cross-CPU architectures and operating systems (including Arm x86_x64 | linux Win Mac).
-  - title: Multi-Protocol Support
-    details: webdav, s3, filelist, ftp, sftp, nfs, restic, dlna... protocols for flexible file management.
-  - title: Integrated Services
-    details: Built-in ddns, acme, rclone, alist integration for enhanced functionality.
-  - title: Multi-Tenant Support
-    details: Supports multi-user environments for tenant isolation and management.
+  - title: 多样化硬件优化
+    details: 可在从低性能边缘设备到老旧系统的广泛硬件上无缝部署，确保资源高效利用。
+  - title: 无缝扩展性
+    details: 从核心功能开始，通过模块化扩展轻松增加功能，适应不断变化的需求。
+  - title: 全平台兼容
+    details: 兼容多种操作系统和CPU架构，包括Linux、Windows、macOS、Android以及OpenWrt硬路由和软路由设备。
+  - title: 全面的协议支持
+    details: 支持WebDAV、S3、FTP、SFTP、NFS等多种协议，实现灵活的文件管理。
+  - title: 集成工具增强功能
+    details: 内置DDNS、ACME、Rclone和Alist集成，增强您的NAS功能。
+  - title: 强大的多用户管理
+    details: 提供安全的多用户和多租户支持，实现隔离环境和高效管理。
 
-footer: Copyright © 2025
+footer: 版权所有 © 2025
 ---
 
-Nascore is a modular platform designed for both businesses and individual users, offering a scalable solution that's quick to deploy and easy to use. Nascore is designed to operate efficiently, even with limited system resources, while still supporting high-volume data management and heavy usage from a large number of users.
-
-Deploy quickly, evolve effortlessly, and maintain a resource-efficient project at every stage.
+Nascore是一个类似Nextcloud的NAS管理系统，但集成了DDNS、ACME和Rclone等功能。它专为在低性能边缘设备和老旧硬件上无缝部署和高效运行而设计。从简单的Web UI文件管理和WebDAV/Filelist协议支持开始，Nascore可以逐步扩展支持SSH、S3、FTP、SFTP、NFS等协议，并提供内网穿透、动态DNS解析以及Rclone提供的其他服务等高级功能。这使得Nascore既可以是轻量简单的解决方案，也可以是功能全面的系统。此外，它还支持多用户租户模式，兼容OpenWrt(硬路由和软路由)、Linux、Windows、macOS、Android等多种平台。

@@ -49,10 +49,34 @@ export default defineUserConfig({
           { text: 'GitHub', link: 'http://github.com/nas-core' },
         ],
         sidebar: {
+          '/docs/': [
+            {
+              text: 'Guide',
+              children: [
+                '/docs/README.md',
+                '/docs/nascore_toml.md',
+                '/docs/webdav.md',
+                '/docs/cdn_and_static.md',
+                '/docs/rclone.md',
+                '/docs/caddy2.md',
+                '/docs/ddnsgo.md',
+                '/docs/lego.md',
+              ],
+            },
+          ],
           '/zh/docs/': [
             {
               text: '指南',
-              children: ['/zh/docs/README.md', '/zh/docs/nascore_toml.md', '/zh/docs/webdav.md', '/zh/docs/cdn_and_static.md'],
+              children: [
+                '/zh/docs/README.md',
+                '/zh/docs/nascore_toml.md',
+                '/zh/docs/webdav.md',
+                '/zh/docs/cdn_and_static.md',
+                '/zh/docs/rclone.md',
+                '/zh/docs/caddy2.md',
+                '/zh/docs/ddnsgo.md',
+                '/zh/docs/lego.md',
+              ],
             },
           ],
         },

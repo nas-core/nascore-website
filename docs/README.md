@@ -12,22 +12,20 @@ actions:
     type: secondary
 
 features:
-  - title: Lightweight & Efficient
-    details: Optimized for low-resource environments, ensuring efficient performance even on modest hardware.
-  - title: Modular & Extensible
-    details: Start with essential features and seamlessly add functionality with modular extensions.
-  - title: Versatile Compatibility
-    details: Supports cross-CPU architectures and operating systems (including Arm x86_x64 | linux Win Mac).
-  - title: Multi-Protocol Support
-    details: webdav, s3, filelist, ftp, sftp, nfs, restic, dlna... protocols for flexible file management.
-  - title: Integrated Services
-    details: Built-in ddns, acme, rclone, alist integration for enhanced functionality.
-  - title: Multi-Tenant Support
-    details: Supports multi-user environments for tenant isolation and management.
+  - title: Optimized for Diverse Hardware
+    details: Seamlessly deploys on a wide range of devices, from low-performance edge hardware to older systems, ensuring efficient resource utilization.
+  - title: Seamless Scalability
+    details: Begin with core functionalities and effortlessly expand with modular extensions, adapting to your evolving needs.
+  - title: Universal Platform Support
+    details: Compatible with various operating systems and CPU architectures, including Linux, Windows, macOS, Android, and OpenWrt for both hard and soft routers.
+  - title: Comprehensive Protocol Integration
+    details: Supports a wide array of protocols including WebDAV, S3, FTP, SFTP, NFS, and more for versatile file management.
+  - title: Enhanced Functionality with Integrated Tools
+    details: Features built-in DDNS, ACME, Rclone, and Alist integration to enhance your NAS capabilities.
+  - title: Robust Multi-User Management
+    details: Provides secure multi-user and multi-tenant support, enabling isolated environments and streamlined management.
 
 footer: Copyright © 2025
 ---
 
-Nascore is a modular platform designed for both businesses and individual users, offering a scalable solution that's quick to deploy and easy to use. Nascore is designed to operate efficiently, even with limited system resources, while still supporting high-volume data management and heavy usage from a large number of users.
-
-Deploy quickly, evolve effortlessly, and maintain a resource-efficient project at every stage.
+Nascore is a versatile NAS management system, akin to Nextcloud, but with integrated functionalities like DDNS, ACME, and Rclone. It's designed for seamless deployment and efficient operation on low-performance edge devices, including older hardware. Starting with a simple web UI for file management and support for WebDAV/Filelist protocols, Nascore can progressively expand to include SSH, S3, FTP, SFTP, NFS, and other protocols. It also offers advanced features such as intranet penetration, dynamic DNS resolution, and additional services provided by Rclone. This makes Nascore adaptable, ranging from a lightweight and straightforward setup to a comprehensive and feature-rich solution. Furthermore, it supports multi-user tenancy and is compatible with a wide range of platforms, including OpenWrt (both hard and soft routers), Linux, Windows, macOS, Android, and OpenWrt for both hard and soft routers.

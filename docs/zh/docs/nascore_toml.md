@@ -14,7 +14,7 @@
 
 否则是通过Secret.Sha256HashSalt 单向加密后的密码
 
-### 关于 WebUIPubLicCdn DefaultStaticFileServiceRoot DefaultStaticFileServicePrefix
+### WebUIPubLicCdn
 
 为了降低nascore核心文件的尺寸，web界面不包含前端的一些文件。
 

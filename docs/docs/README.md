@@ -1,3 +1,3 @@
-# 开始使用
+# Getting Started
 
-从左侧开始
+Start navigation from the left
