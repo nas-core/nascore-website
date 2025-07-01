@@ -1,4 +1,4 @@
-# alist/openlist
+# alist/openlist网盘列表
 
 Alist/openlist 是一个开源的网盘管理工具，支持将多种 云存储 服务（如阿里云盘、OneDrive、Google Drive、百度网盘等）整合到一个统一的界面中，方便用户管理和访问这些存储资源。
 
