@@ -22,18 +22,7 @@ The default configuration file already provides this part of the configuration s
 
 ### GitHubDownloadMirror
 
-Some installation commands of nascore rely on github, but github cannot be accessed in some cases. So you need to configure a download mirror address.
-
-The default configuration file already provides one, but such services are personal and easy to be targeted, and there is not much stability guarantee.
-
-If you have a domain name and it is hosted on cloudflare, you can refer to this github project [https://github.com/joyanhui/gh-proxy](joyanhui/gh-proxy) to build it yourself. You can also use the bing search engine to search for keywords `github mirror` [bing](https://cn.bing.com/search?q=github+mirror) `github proxy` [bing](https://cn.bing.com/search?q=github+proxy)
-
-As of 2025-06-29, tested and available
-
-```
-https://github.akams.cn/
-https://hub.gitmirror.com/
-```
+[read more](githubproxy)
 
 ## Configuration file example
 

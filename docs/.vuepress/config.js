@@ -38,6 +38,7 @@ export default defineUserConfig({
               children: [
                 '/docs/README.md',
                 '/docs/nascore_toml.md',
+                '/docs/githubproxy.md',
                 '/docs/webdav.md',
                 '/docs/cdn_and_static.md',
                 '/docs/rclone.md',
@@ -66,6 +67,7 @@ export default defineUserConfig({
               children: [
                 '/zh/docs/README.md',
                 '/zh/docs/nascore_toml.md',
+                '/zh/docs/githubproxy.md',
                 '/zh/docs/webdav.md',
                 '/zh/docs/cdn_and_static.md',
                 '/zh/docs/rclone.md',
