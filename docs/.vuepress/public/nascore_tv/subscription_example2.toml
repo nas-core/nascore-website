@@ -1,0 +1,4 @@
+
+[fortest]
+api = 'https://cj.rycjapi.com/api.php/provide/vod'
+name = '测试地址'
