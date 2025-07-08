@@ -37,6 +37,7 @@ export default defineUserConfig({
               text: 'Guide',
               children: [
                 '/docs/README.md',
+                '/docs/install.md',
                 '/docs/nascore_toml.md',
                 '/docs/githubproxy.md',
                 '/docs/webdav.md',
@@ -67,6 +68,7 @@ export default defineUserConfig({
               text: '指南',
               children: [
                 '/zh/docs/README.md',
+                '/zh/docs/install.md',
                 '/zh/docs/nascore_toml.md',
                 '/zh/docs/githubproxy.md',
                 '/zh/docs/webdav.md',

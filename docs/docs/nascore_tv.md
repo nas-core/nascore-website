@@ -2,19 +2,19 @@
 
 ## Introduction
 
-`nascore_tv` is an extension of NasCore that provides video on demand (VOD) or TV (TV) functionality. It optimizes the video playback experience by proxying the Douban API and caching video lists and details.
+`nascore_tv` is an extension of NasCore that provides video on demand (VOD) or TV functions. It optimizes the video playback experience by proxying the Douban API and the API for subscribing to video resource libraries, and caching a small amount of hot data.
 
 ## Installation
 
 1. **Download the `nascore_tv` binary file**:
 
-- Download the binary file according to your operating system and unzip it ( **TODO: add actual download links or compilation instructions** )
+- Download the binary file according to your operating system and unzip it ( **TODO: Add actual download links or compilation instructions** )
 
 2. **Storage location**: Place the unzipped `nascore_tv` or `nascore_tv.exe` file in one of the following directories:
 
 - In the same directory as the executable file of the NasCore main program (such as `nascore`).
 - In the `extended` subdirectory in the same directory as the executable file of the NasCore main program. This method is recommended.
-- In the directory specified by the environment variable `NASCOTE_EXTENDED_PATH`.
+- The directory specified by the environment variable `NASCOTE_EXTENDED_PATH`.
 
 It is recommended to put `nascore_tv` in the `extended` subdirectory to better organize the file structure.
 
@@ -41,7 +41,7 @@ interval_hour = 24
 default_selected_api_site = ["tyyszy", "bfzy", "dyttzy", "ruyi"]
 
 [auth]
-jwt_secret= "your_jwt_secret_key"
+jwt_secret = "your_jwt_secret_key"
 disable = false
 users = [
 { username = "nascore", password = "nascore" },
@@ -69,7 +69,7 @@ users = [
 | `[auth]` | Authentication configuration |
 | `jwt_secret` | JWT secret key, please replace it with a strong one. |
 | `disable` | Set to `true` to disable authentication. |
-| `users` | Username and password list, passwords are saved in plain text. If empty, a single authentication user with username "nascore" and password "nascore" is enabled by default. |
+| `users` | Username and password list, passwords are stored in plain text. If empty, a single authentication user named "nascore" and password "nascore" is enabled by default. |
 
 ## Run
 
@@ -78,7 +78,7 @@ After placing `nascore_tv` in the correct directory and configuring the `nascore
 ## Notes
 
 - If `nascore_tv` fails to start properly, check the NasCore log to see if there is any error information.
-- If the `nascore_tv.toml` configuration file is modified, you need to restart NasCore for the configuration to take effect.
+- If you modify the `nascore_tv.toml` configuration file, you need to wait a few seconds for it to take effect.
 
 ## Uninstall
 
