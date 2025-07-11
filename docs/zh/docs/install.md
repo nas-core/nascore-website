@@ -1,30 +1,24 @@
 # 安装 nascore
 
-## 安装基本组件
+暂时只提供linux和windwos下的安装指南,其他系统类似。
 
-暂时只提供linux和windwos下的安装指南
+## 下载
 
-### 下载
-
-你可以通过以下链接下载 nascore：[下载链接](https://nascore.eu.org/download.html)
+你可以通过以下链接下载 nascore：[下载链接](../download.html)
 
 nascore是绿色软件，没有任何外部依赖。解压后即可使用，可以放到任意目录下，例如 `/overlay/data/nascore`
 
 nascore不需要安装即可使用。如果你需要安装为后台服务，请参考后面的步骤。
 
-### 安装
+## 安装
 
-#### windows
+### windows
 
 暂时不提供
 
-#### linux
+### linux
 
 以openwrt为例
-
-##### 在 OpenWRT 上安装 nascore 服务
-
-###### 安装步骤
 
 1.  **配置 nascore**
 
@@ -81,13 +75,14 @@ chmod +x nascore
    ps | grep nascore
    ```
 
-###### 卸载
+### 卸载
 
-如果需要卸载 nascore，请执行以下步骤：
+如果需要卸载 nascore 可以直接删除对应的文件，例如openwrt下：
 
 ```sh
 service nascore stop
 service nascore disable
 rm -rf /etc/init.d/nascore
-rm -rf /overlay/data/nascore
+rm -rf /overlay/data/nascore/nascore
+rm -rf /overlay/data/nascore/nascore.toml
 ```

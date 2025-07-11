@@ -59,7 +59,7 @@ respond "Hello from baseauth.mydomain.com on port 8081"
 }
 
 http://file.mydomain.com:8086 {
-root * /home/yh/myworkspace/nas-core/code-private/static file_server
+root * /tmp
 }
 
 http://proxy.mydomain.com:8086 {
