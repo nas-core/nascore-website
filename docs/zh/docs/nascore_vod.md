@@ -18,11 +18,11 @@
 
 ## 配置
 
-`nascore_tv` 的配置通过 `nascore_tv.toml` 文件进行。该文件需要放置在与 `nascore_tv` 可 executable 文件相同的目录。 如果没有此配置文件，则会使用默认值启动。
+`nascore_vod` 的配置通过 `nascore_vod.toml` 文件进行。该文件需要放置在与 `nascore_vod` 可 executable 文件相同的目录。 如果没有此配置文件，则会使用默认值启动。
 
 ### 配置文件示例
 
-```toml CodeSpace/nascore_vod/nascore_tv.toml
+```toml CodeSpace/nascore_vod/nascore_vod.toml
 [cache]
 douban_max = 50
 douban_expire = 150
@@ -71,13 +71,13 @@ users = [
 
 ## 运行
 
-将 `nascore_tv` 放置在正确的目录，并配置好 `nascore_tv.toml` 文件后， NasCore 会自动启动它。 你可以在 NasCore 的日志中看到 `nascore_tv` 的启动信息。
+将 `nascore_vod` 放置在正确的目录，并配置好 `nascore_vod.toml` 文件后， NasCore 会自动启动它。 你可以在 NasCore 的日志中看到 `nascore_vod` 的启动信息。
 
 ## 注意事项
 
-- 如果 `nascore_tv` 无法正常启动，请检查 NasCore 的日志，查看是否有错误信息。
-- 如果修改了 `nascore_tv.toml` 配置文件，需要等待几秒才会生效。
+- 如果 `nascore_vod` 无法正常启动，请检查 NasCore 的日志，查看是否有错误信息。
+- 如果修改了 `nascore_vod.toml` 配置文件，需要等待几秒才会生效。
 
 ## 卸载
 
-要卸载 `nascore_tv` ，只需将其从相应的目录删除即可。 同时删除 `nascore_tv.toml` 文件。
+要卸载 `nascore_tv` ，只需将其从相应的目录删除即可。 同时删除 `nascore_vod.toml` 文件。

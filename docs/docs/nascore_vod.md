@@ -20,11 +20,11 @@ It is recommended to put `nascore_tv` in the `extended` subdirectory to better o
 
 ## Configuration
 
-`nascore_tv` is configured via the `nascore_tv.toml` file. This file needs to be placed in the same directory as the `nascore_tv` executable file. If this configuration file is not present, the default values ​​will be used.
+`nascore_tv` is configured via the `nascore_vod.toml` file. This file needs to be placed in the same directory as the `nascore_tv` executable file. If this configuration file is not present, the default values ​​will be used.
 
 ### Configuration file example
 
-```toml CodeSpace/nascore_vod/nascore_tv.toml
+```toml CodeSpace/nascore_vod/nascore_vod.toml
 [cache]
 douban_max = 50
 douban_expire=150
@@ -73,13 +73,13 @@ users = [
 
 ## Run
 
-After placing `nascore_tv` in the correct directory and configuring the `nascore_tv.toml` file, NasCore will automatically start it. You can see the startup information of `nascore_tv` in the NasCore log.
+After placing `nascore_tv` in the correct directory and configuring the `nascore_vod.toml` file, NasCore will automatically start it. You can see the startup information of `nascore_tv` in the NasCore log.
 
 ## Notes
 
-- If `nascore_tv` fails to start properly, check the NasCore log to see if there is any error information.
-- If you modify the `nascore_tv.toml` configuration file, you need to wait a few seconds for it to take effect.
+- If `nascore_vod` fails to start properly, check the NasCore log to see if there is any error information.
+- If you modify the `nascore_vod.toml` configuration file, you need to wait a few seconds for it to take effect.
 
 ## Uninstall
 
-To uninstall `nascore_tv`, simply delete it from the corresponding directory. Also delete the `nascore_tv.toml` file.
+To uninstall `nascore_vod`, simply delete it from the corresponding directory. Also delete the `nascore_vod.toml` file.
