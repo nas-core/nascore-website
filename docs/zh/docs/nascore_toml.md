@@ -41,7 +41,7 @@
   DefaultStaticFileServicePrefix = '/@static/'
   DefaultStaticFileServiceEnable = true
   DefaultStaticFileServiceRoot = './static/'
-  DefaultStaticFileServiceDownloadUrl = 'https://raw.githubusercontent.com/nas-core/nascore/refs/heads/main/static.tarz'
+  DefaultStaticFileServiceDownloadUrl = 'https://github.com/nas-core/nascore_static/archive/refs/heads/main.zip'
 
 [JWT]
   UserAccessTokenExpires = 2592000
