@@ -23,6 +23,11 @@ name = '天涯资源'
 api = 'https://zy.xiaomaomi.cc/api.php/provide/vod'
 name = '小猫咪资源'
 
+[ffzy]
+api = 'http://ffzy5.tv/api.php/provide/vod'
+name = '非凡影视'
+detail = 'http://ffzy5.tv'
+
 [heimuer]
 api = 'https://json.heimuer.xyz/api.php/provide/vod'
 name = '黑木耳'
@@ -84,6 +89,8 @@ name = '旺旺短剧'
 [ikun]
 api = 'https://ikunzyapi.com/api.php/provide/vod'
 name = 'iKun资源'
+
+
 
 [ckzy]
 api = 'https://www.ckzy1.com'
