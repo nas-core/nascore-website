@@ -1,4 +1,4 @@
-# lego automatic TLS/Https management
+# lego automatic certificate management
 
 lego is a powerful automatic certificate management tool that supports multiple certificate authorities (CA) and multiple protocols (such as ACME, DNS-01, HTTP-01, etc.). nascore supports automatic installation and follow-up startup of lego, as well as automatic reverse proxy.
 
@@ -15,18 +15,34 @@ nascore will re-execute the certificate deployment/application command of lego a
 ## lego tips
 
 ```sh
-export LEGO_EMAIL="you@example.com"
-export LEGO_PATH="./lego_cert"
-export CF_DNS_API_TOKEN=b111111feb177a84330febba8a83208921177bffe733
-./lego --dns cloudflare -d example1.com -d '*.example1.com' --key-type ec256 run
-export CF_DNS_API_TOKEN=b222222feb177a84330febba8a83208921177bffe733
-./lego --dns cloudflare -d example2.com -d '*.example2.com' --key-type ec256 run
+export LEGO_DEBUG_CLIENT_VERBOSE_ERROR=true
+export LEGO_DEBUG_ACME_HTTP_CLIENT=true
+export LEGO_EMAIL=you@example.com
+export LEGO_PATH=${LEGO_PATH}
+export CF_DNS_API_TOKEN=your-api-token
+export LEGO_SERVER=https://acme.zerossl.com/v2/DV90
+export LEGO_EAB_HMAC=your-hmac
+export LEGO_EAB_KID=your-kid
+${BinPath} --accept-tos --dns cloudflare -d exp1.com -d *.exp1.com --eab -k ec256 run &nascore
 export ALICLOUD_ACCESS_KEY=abcdefghijklmnopqrstuvwx
 export ALICLOUD_SECRET_KEY=your-secret-key
-./lego --dns alidns -d example3.com -d '*.example3.com' --key-type ec256 run
-```
+${BinPath} --accept-tos --dns alidns -d exp2.com -d *.exp2.com --eab -k ec256 run &nascore
+export CF_DNS_API_TOKEN=your-api-token2
+${BinPath} --accept-tos --dns cloudflare -d exp3.com -d '*.exp3.com' --eab -k ec256 run &nascore
 
-You can use different accounts to apply for certificates for different domain names on the same DNS vendor. For example, both example1 and example2 verify domain ownership from cloudfalre's DNS. But different API tokens are used
+```
+### Different accounts for the same DNS vendor
+You can add a line of environment variables in front of the domain name
+
+### Use zerossl instead of letsencrypt
+You need to configure the environment variable `LEGO_SERVER=https://acme.zerossl.com/v2/DV90` and configure LEGO_EAB_HMAC and LEGO_EAB_KID and add `--eab` to the running parameters
+
+### Concurrent execution
+Add the characters `&nascore` at the end of the line. When executing, this character will be automatically deleted, and after the previous environment variables are executed, the command of this line will be executed in the background without waiting for completion and directly enter the next line
+### Environment variable recognition
+Lines starting with `export` or `set` are considered temporary environment variables
+
+## Other instructions
 
 CF_DNS_API_TOKEN Please log in to [cloudflare Create Token - Edit Zone DNS Use Template] (https://dash.cloudflare.com/profile/api-tokens)
 
